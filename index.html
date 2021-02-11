@@ -1,16 +1,37 @@
+<!DOCTYPE html>
 <html>
     <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+        <title>Simple Interest Calculator</title>
+        <script  src="script.js"></script>
+        <link rel="stylesheet"  href="style.css">
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
+        <h1></h1>
+        <br>
+    <div class="ex">
+        <table>
+        <tr>
+            <th>Simple Interest Calculator</th>
+            <br>
+        </tr>
+        <tr>
+        <td>     
+                   Amount: <input type="text"  id="principal">  
+                   <br>
+                   <br>
+            <!tried correct code for rangeslider but cannot work with this SI calculation>
+            Interest Rate: <input type="text" id="rate"> 
+             <br>
+             <br>
+             No. of Years: <input type="text"  id="years">  
+             <br>
+             <br>
+            
+               <button onclick="compute()">Compute Interest</button>
+               <p id="SI"></p>
+        </td>    
+        </tr>    
+        </table> 
+    </div>      
     </body>
 </html>
