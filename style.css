@@ -1,38 +1,47 @@
-body 
-{
-background-color: black;
+body {
+    background-color: black;
+    font-family: arial;
+    color: white
 }
-th  
-{
-color: green;
-font-size: 25px;
-position: relative;    
+
+h1 {
+    color: grey;
+    font-family: Verdana;
+    margin: 0;
 }
-div 
-{
-position: ;    
-width: 350px;
-height: 250px;
-margin: ;
-background: white;
-border-radius: 15px;
-color: ;
-text-align: ;
-text-indent: ;
-padding: 20px;
-border: 5px solid gray;
-margin: 0px;    
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 30px;
+    border-radius: 25px;
 }
-p    
-{
-font-family: sans-serif;
-color: black;
-font-size: 15px;    
-}
-button {
-font-size: 20px;
-color: brown;
-background-color: white;
+
+.dark-mode {
+    background-color: black;
+    color: white;
 }
 
 
+/*indent table from the left */
+
+.inputtable {
+    margin-left: 80px;
+}
+
+
+/*indent results displayed theleft */
+
+.resulttext {
+    margin-left: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+::placeholder {
+    font-style: italic;
+    font-size: 1em;
+    color: grey;
+    padding: 10px;
+}
